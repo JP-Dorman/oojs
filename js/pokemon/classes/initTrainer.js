@@ -1,0 +1,5 @@
+
+
+function InitTrainer(name, party, ) {
+
+}
