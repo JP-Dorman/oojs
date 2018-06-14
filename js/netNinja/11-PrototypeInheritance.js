@@ -1,4 +1,4 @@
-function User(email, name){
+function User(name, email){
 	this.email = email;
 	this.name = name;
 	this.online = false;

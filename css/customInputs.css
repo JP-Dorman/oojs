@@ -1,0 +1,23 @@
+.inputGrouping {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.customInputText {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+
+.customInputText .inputErrorLog {
+  font-size: 10px;
+  color: #F44336;
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+}
