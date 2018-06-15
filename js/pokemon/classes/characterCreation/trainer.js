@@ -5,8 +5,3 @@ function Trainer(name) {
   this.losses = 0;
   this.draw = 0;
 }
-
-Trainer.prototype.createTrainer = function(name) {
-  var newTrainer = new Trainer(name);
-  console.log(newTrainer);
-}

@@ -34,4 +34,6 @@ console.log(blue);
 
 var battle1 = new Battle([red, blue], "vs");
 
-battle1.attackEnemy(attacks.QuickAttack.name, red.party[0], blue.party[0]);
+var admin = new Store();
+
+//battle1.attackEnemy(attacks.QuickAttack.name, red.party[0], blue.party[0]);

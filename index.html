@@ -4,9 +4,12 @@
 <head>
   <meta charset="utf-8"/>
   <title>OOJS Tutorial</title>
-  <link href="css/customInputs.css" rel="stylesheet" />
-  <link href="css/characterCreation.css" rel="stylesheet" />
   <link href="css/core.css" rel="stylesheet" />
+  <link href="css/customInputs/customInputCore.css" rel="stylesheet" />
+  <link href="css/customInputs/customTextInput.css" rel="stylesheet" />
+  <link href="css/customInputs/customButton.css" rel="stylesheet" />
+  <link href="css/characterCreation.css" rel="stylesheet" />
+
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
@@ -21,7 +24,8 @@
           <input id="player1Name" type="text">
           <span class="inputErrorLog">Player must have a name!</span>
         </div>
-        <button onClick="createTrainer('steve')">Go!</button>
+        <button class="customButton primaryButton" onClick="buttonCreateTrainer(this)">Go!</button>
+        <span class="feedbackIcon"></span>
       </div>
     </div>
 
@@ -32,7 +36,7 @@
           <input id="player2Name" type="text">
           <span class="inputErrorLog">Player must have a name!</span>
         </div>
-        <button>Go!</button>
+        <button class="customButton primaryButton">Go!</button>
       </div>
     </div>
   </div>
@@ -51,14 +55,19 @@
   <!--<script src="js/netNinja/8-ClassInheritance.js"></script>-->
   <!--<script src="js/netNinja/9-Constructors.js"></script>-->
   <!--<script src="js/netNinja/10-Prototypes.js"></script>-->
-  -<script src="js/netNinja/11-PrototypeInheritance.js"></script>-->
-  <!--<script src="js/pokemon/data/types.js"></script>
+  <!--<script src="js/netNinja/11-PrototypeInheritance.js"></script>-->
+  <script src="js/pokemon/classes/store.js"></script>
+  <script src="js/pokemon/buttonFunctions.js"></script>
+  <script src="js/pokemon/data/types.js"></script>
   <script src="js/pokemon/data/moves.js"></script>
   <script src="js/pokemon/classes/characterCreation/basePokemon.js"></script>
   <script src="js/pokemon/classes/characterCreation/pokemonSpecies.js"></script>
   <script src="js/pokemon/classes/characterCreation/trainer.js"></script>
   <script src="js/pokemon/classes/battle/battle.js"></script>
   <script src="js/pokemon/classes/battle/multiplayerBattle.js"></script>
-  <script src="js/pokemon/main.js"></script>-->
+  <script src="js/pokemon/main.js"></script>
+
+  <!-- Interactions -->
+  <script src="js/pokemon/buttonFunctions.js"></script>
 </body>
 </html>

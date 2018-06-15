@@ -1,0 +1,7 @@
+.inputGrouping {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
