@@ -1,0 +1,11 @@
+.feedbackIcon {
+  opacity: 0;
+}
+
+.feedbackIcon.show {
+  opacity: 1;
+}
+
+.feedbackIcon .tick {
+  color: #4CAF50;
+}

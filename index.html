@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,9 +7,11 @@
   <link href="css/customInputs/customInputCore.css" rel="stylesheet" />
   <link href="css/customInputs/customTextInput.css" rel="stylesheet" />
   <link href="css/customInputs/customButton.css" rel="stylesheet" />
+  <link href="css/customInputs/feedbackIcon.css" rel="stylesheet" />
   <link href="css/characterCreation.css" rel="stylesheet" />
 
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -22,7 +23,7 @@
         <div class="customInputText">
           <label for="player1Name">Player 1 Name:</label>
           <input id="player1Name" type="text">
-          <span class="inputErrorLog">Player must have a name!</span>
+          <span class="inputErrorLog"></span>
         </div>
         <button class="customButton primaryButton" onClick="buttonCreateTrainer(this)">Go!</button>
         <span class="feedbackIcon"></span>
@@ -34,7 +35,7 @@
         <div class="customInputText">
           <label for="player2Name">Player 2 Name:</label>
           <input id="player2Name" type="text">
-          <span class="inputErrorLog">Player must have a name!</span>
+          <span class="inputErrorLog"></span>
         </div>
         <button class="customButton primaryButton" onClick="buttonCreateTrainer(this)">Go!</button>
         <span class="feedbackIcon"></span>
